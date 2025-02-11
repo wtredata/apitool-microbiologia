@@ -2,6 +2,8 @@
 
 
 // Basicos de autenticacion
+
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 Auth::routes();
@@ -23,6 +25,101 @@ Route::middleware("admin")->group(function () {
   Route::put("/ChangeStatusInstitucion", "InstitucionController@status");
   Route::put("/UpdateInstitucion", "InstitucionController@update");
   Route::delete("/DestroyInstitucion", "InstitucionController@destroy");
+
+  // Medio
+  Route::get("/SeeSectionMedio", "MedioController@section");
+  Route::get("/SeeIndexMedio", "MedioController@index");
+  Route::get("/SeeIndexMedioCultivoLaboratorio", "MedioController@index");
+  Route::get("/SeeEditMedio/{id}", "MedioController@edit")->name('formEdit.medio');
+  Route::get("/ShowMedio", "MedioController@show");
+  Route::get("/SeeListMedio", "MedioController@listHTML");
+  Route::post("/storeLoteMedioLab", "MedioController@asignarloteLaboratorio")->name('store.medio.lote.lab');
+  Route::post("/StoreMedio", "MedioController@store");
+  Route::put("/ChangeStatusMedio", "MedioController@status");
+  Route::put("/UpdateMedio/{id}", "MedioController@update")->name('update.medio');
+  Route::delete("/DestroyMedio", "MedioController@destroy");
+  Route::get("/GetDinamicModalControlConfiguracionMedios", "MedioController@sectionAsignacion");
+  Route::get("/GetDinamicModalControlConfiguracionMediosCepa", "MedioController@sectionAsignacionCepa");
+  Route::post("/StoreMedioCultivoLaboratorio", "MedioController@cultivo");
+  Route::post("/StoreMedioCultivoLaboratorioCepa", "MedioController@cepa");
+
+  // Cepa
+  Route::get("/SeeSectionCepa", "CepaController@section");
+  Route::get("/SeeIndexCepa", "CepaController@index");
+  Route::get("/SeeEditCepa/{id}", "CepaController@edit")->name('formEdit.cepa');
+  Route::get("/ShowCepa", "CepaController@show");
+  Route::get("/SeeListCepa", "CepaController@listHTML");
+  Route::post("/StoreCepa", "CepaController@store");
+  Route::put("/ChangeStatusCepa", "CepaController@status");
+  Route::put("/UpdateCepa/{id}", "CepaController@update")->name('update.cepa');
+  Route::delete("/DestroyCepa", "CepaController@destroy");
+  Route::get("/GetDinamicModalAsignacionCepa", "CepaController@sectionAsignacion");
+  Route::post("/asignarLoteCepaMedio", "CepaController@asignarLoteCepaALoteMedio")->name('asignar.loteCepa.loteMedio');
+  Route::post("/asignarLoteCepaTincion", "CepaController@asignarLoteCepaALoteTincion")->name('asignar.loteCepa.loteTincion');
+  Route::post("/asignarLoteCepaPruebaSensi", "CepaController@asignarLoteCepaALotePruebaSensi")->name('asignar.loteCepa.lotePruebaSensi');
+
+  Route::post("/registro/cepa/medios", "CepaController@controlCepaMedio")->name('registro.cepa.medio');
+  Route::post("/registro/cepa/tinciones", "CepaController@controlCepaTincion")->name('registro.cepa.tincion');
+  Route::post("/registro/cepa/pruebaSensi", "CepaController@controlCepaPrueba")->name('registro.cepa.prueba');
+  
+  Route::put("/update/cepa/medios/{id}", "CepaController@updateControlCepaMedio")->name('update.cepa.control');
+  Route::put("/update/cepa/tinciones/{id}", "CepaController@updateControlCepaTincion")->name('update.cepa.control.tincion');
+  Route::put("/update/cepa/pruebas/{id}", "CepaController@updateControlCepaPrueba")->name('update.cepa.control.prueba');
+
+  Route::delete("/destroy/cepa/medios/{id}", "CepaController@destroyControlCepaMedio")->name('destroy.control.cepa.medio');
+  Route::delete("/destroy/cepa/tinciones/{id}", "CepaController@destroyControlCepaTincion")->name('destroy.control.cepa.tincion');
+  Route::delete("/destroy/cepa/pruebas/{id}", "CepaController@destroyControlCepaPrueba")->name('destroy.control.cepa.prueba');
+
+
+
+
+  // Tinciones
+  Route::get("/SeeSectionTincion", "TincionController@section");
+  Route::get("/SeeIndexTincion", "TincionController@index");
+  Route::get("/SeeIndexTincionLaboratorio", "TincionController@index");
+  Route::get("/SeeEditTincion/{id}", "TincionController@edit")->name('formEdit.tincion');
+  Route::get("/ShowTincion", "TincionController@show");
+  Route::get("/SeeListTincion", "TincionController@listHTML");
+  Route::post("/storeLoteTincionLab", "TincionController@asignarloteLaboratorio")->name('store.tincion.lote.lab');
+  Route::post("/StoreTincion", "TincionController@store");
+  Route::put("/ChangeStatusTincion", "TincionController@status");
+  Route::put("/UpdateTincion/{id}", "TincionController@update")->name('update.tincion');
+  Route::delete("/DestroyTincion", "TincionController@destroy");
+  Route::get("/GetDinamicModalControlConfiguracionTinciones", "TincionController@sectionAsignacion");
+  Route::get("/GetDinamicModalControlConfiguracionTincionesCepa", "TincionController@sectionAsignacionCepa");
+  Route::post("/StoreTincionLaboratorio", "TincionController@tincioncultivo");
+  Route::post("/StoreTincionLaboratorioCepa", "TincionController@tincioncepa");
+
+  //compra lotes
+  Route::post("/StoreLote/{itemId}/{section}", "CompraLoteController@store")->name('store.compra.lote');
+  Route::put("/updateLote/{id}/{section}", "CompraLoteController@update")->name('update.compra.lote');
+  Route::delete("/deleteLote/{id}/{section}", "CompraLoteController@destroy")->name('destroy.compra.lote');
+
+  //Detalle modulo microbiologia
+  Route::get("/microbiologia/detalleMedio/{id}/lab/{labId}", "MedioController@detalles")->name('microbiologia.medio.detalles');
+  Route::get("/microbiologia/detalleTincion/{id}", "TincionController@detalles")->name('microbiologia.tincion.detalles');
+  Route::get("/microbiologia/detallePruebaSensi/{id}", "PruebaController@detalles")->name('microbiologia.prueba.detalles');
+
+  //Descarga de informes de controles de cepa
+  Route::get("/microbiologia/Informe/ControlCepa/{loteId}/{section}","PDFController@generarPDF")->name('generar.informe.pdf');
+
+
+  // Pruebas de sensibilidad
+  Route::get("/SeeSectionPrueba", "PruebaController@section");
+  Route::get("/SeeIndexPrueba", "PruebaController@index");
+  Route::get("/SeeIndexPruebaLaboratorio", "PruebaController@index");
+  Route::get("/SeeEditPrueba/{id}", "PruebaController@edit")->name('formEdit.prueba');
+  Route::get("/ShowPrueba", "PruebaController@show");
+  Route::get("/SeeListPrueba", "PruebaController@listHTML");
+  Route::post("/StorePrueba", "PruebaController@store");
+  Route::put("/ChangeStatusPrueba", "PruebaController@status");
+  Route::put("/UpdatePrueba/{id}", "PruebaController@update")->name('update.prueba');
+  Route::delete("/DestroyPrueba", "PruebaController@destroy");
+  Route::get("/GetDinamicModalControlConfiguracionPruebas", "PruebaController@sectionAsignacion");
+  Route::get("/GetDinamicModalControlConfiguracionPruebasCepa", "PruebaController@sectionAsignacionCepa");
+  Route::post("/StorePruebaLaboratorio", "TincionController@cultivo");
+  Route::post("/StorePruebaLaboratorio", "TincionController@cepa");
+
 
   // País
   Route::get("/SeeSectionPais", "PaisController@section");
@@ -117,15 +214,15 @@ Route::middleware("admin")->group(function () {
 
 
   // Area de laboratorio
-  Route::get("/SeeSectionAreaLaboratorio", "AreaLaboratorioController@section");
-  Route::get("/SeeIndexAreaLaboratorio", "AreaLaboratorioController@index");
-  Route::get("/SeeEditAreaLaboratorio", "AreaLaboratorioController@edit");
-  Route::get("/SeeListAreaLaboratorio", "AreaLaboratorioController@listHTML");
-  Route::get("/ShowAreaLaboratorio", "AreaLaboratorioController@show");
-  Route::post("/StoreAreaLaboratorio", "AreaLaboratorioController@store");
-  Route::put("/ChangeStatusAreaLaboratorio", "AreaLaboratorioController@status");
-  Route::put("/UpdateAreaLaboratorio", "AreaLaboratorioController@update");
-  Route::delete("/DestroyAreaLaboratorio", "AreaLaboratorioController@destroy");
+  /**Route::get("/SeeSectionAreaLaboratorio", "AreaLaboratorioController@section");
+  Route::get("/SeeIndexAreaLaboratorio", "App\Http\Controllers\AreaLaboratorioController@index");
+  Route::get("/SeeEditAreaLaboratorio", "App\Http\Controllers\AreaLaboratorioController@edit");
+  Route::get("/SeeListAreaLaboratorio", "App\Http\Controllers\AreaLaboratorioController@listHTML");
+  Route::get("/ShowAreaLaboratorio", "App\Http\Controllers\AreaLaboratorioController@show");
+  Route::post("/StoreAreaLaboratorio", "App\Http\Controllers\AreaLaboratorioController@store");
+  Route::put("/ChangeStatusAreaLaboratorio", "App\Http\Controllers\AreaLaboratorioController@status");
+  Route::put("/UpdateAreaLaboratorio", "App\Http\Controllers\AreaLaboratorioController@update");
+  Route::delete("/DestroyAreaLaboratorio", "App\Http\Controllers\AreaLaboratorioController@destroy"); **/
 
 
   // Fuente de APS
@@ -141,6 +238,7 @@ Route::middleware("admin")->group(function () {
 
 
   // Area
+/**
   Route::get("/SeeSectionArea", "AreaController@section");
   Route::get("/SeeIndexArea", "AreaController@index");
   Route::get("/SeeEditArea", "AreaController@edit");
@@ -149,8 +247,8 @@ Route::middleware("admin")->group(function () {
   Route::post("/StoreArea", "AreaController@store");
   Route::put("/ChangeStatusArea", "AreaController@status");
   Route::put("/UpdateArea", "AreaController@update");
-  Route::delete("/DestroyArea", "AreaController@destroy");
-
+  Route::delete("/DestroyArea", "AreaController@destroy"); 
+ */
 
   // Ciudad
   Route::get("/SeeSectionCiudad", "CiudadController@section");
@@ -324,6 +422,9 @@ Route::middleware("lectura")->group(function () {
   Route::get("/SeeSectionBienvenido", "BienvenidoController@section");
   Route::get("/SeeSectionResultado", "ResultadoController@section");
   Route::get("/SeeSectionResultadoCualitativo", "ResultadoCualitativoController@section");
+  Route::get("/SeeSectionResultadoMicrobiologia", "ResultadoMicrobiologiaController@section")->name("microbiologia.medios");
+  Route::get("/SeeSectionResultadoTinciones", "ResultadoTincionesController@section")->name('microbiologia.tinciones');
+  Route::get("/SeeSectionResultadoPruebas", "ResultadoPruebasController@section")->name('microbiologia.pruebas');
   Route::get("/SeeSectionGraficaIntegrada", "GraficaIntegradaController@section");
   Route::get("/SeeSectionSigmometria", "SigmometriaController@section");
   Route::get("/GetValoresSigmometria", "SigmometriaController@getValoresByControlLaboratorio");
@@ -336,6 +437,10 @@ Route::middleware("lectura")->group(function () {
   Route::get("/GetTopReactivos", "ReactivoController@GetTopReactivos");
   Route::get("/GetTopLaboratorio", "LaboratorioController@getTopLaboratory");
   Route::get("/GetTopAnalitoLab", "AnalitoLaboratorioController@getTopAnalitoLab");
+  Route::get('/GetMedioCultivo', "MedioController@GetMedioCultivo");
+  Route::get('/GetTincion', "TincionController@GetTincion");
+  Route::get('/GetPrueba', "PruebaController@GetPrueba");
+  Route::get('/GetCepa', "CepaController@GetCepa");
   Route::get("/SeeListTemperatura", "TemperaturaController@listHTML");
   Route::get("/SeeListUnidad", "UnidadController@listHTML");
   Route::get("/SeeListMetodologia", "MetodologiaController@listHTML");
@@ -391,7 +496,9 @@ Route::middleware("lectura")->group(function () {
   Route::get("/ComparativaInterlaboratorioErrorAnalitico", "comparativaInterlaboratorio\ErrorAnaliticoInterlaboratorioController");
   Route::get("/ComparativaInterlaboratorioReportes", "comparativaInterlaboratorio\ReportesInterlaboratorioController");
 
-  Route::get("/imprimir", function(){
+  Route::get("/ShowInfoCepaLaboratorio", "CepaController@getInformacion");
+
+  Route::get("/imprimir", function () {
     $pdf = PDF::loadView('comparativo-interlaboratorio/graficas');
     return $pdf->stream();
   });
@@ -399,8 +506,7 @@ Route::middleware("lectura")->group(function () {
   Route::post("/downloadCommit", "TreeController@downloadCommit")->name('downloadCommit');
 });
 
-
 // Inicio y cierre de sesión
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
+Route::get('/logout/get', 'Auth\LoginController@logout')->name('logout.get');

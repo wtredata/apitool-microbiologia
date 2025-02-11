@@ -10,10 +10,6 @@
 
 <link href="{{ asset('css/login.css?v_beta') }}" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-
-
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 
 <title>APITool | Inicio de sesión</title>
@@ -27,7 +23,7 @@
         <div class="container">
 
             <a class="navbar-brand mr-4" href="">
-                <strong>APITool</strong> <sup class="badge bg-primary shadow-none">v-3</sup>
+                <strong>APITool</strong> <sup class="badge bg-primary shadow-none">v3</sup>
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -96,11 +92,10 @@
                         </h4>
                         </p>
 
-                      <a target="_blank" href="https://api.whatsapp.com/send/?phone=573182711649&text&app_absent=0" rel="noopener" class="btn btn-primary" style="text-transform: lowercase;">
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=573182711649&text&app_absent=0" rel="noopener" class="btn btn-primary">
                             <i class="fas fa-chalkboard-teacher mr-2"></i>
-                            Solicitar un demo
+                            Solicitar una demo
                         </a>
-
                     </div>
 
                     <div class="col-md-6 mb-4">
@@ -134,24 +129,21 @@
                                         </div>
                                     </div>
 
-                                        <div class="form-group">
+                                    <div class="form-group">
+                                        <div class="">
                                             <label for="password" class="form-label">{{ __('Contraseña') }}</label>
-                                            <div class="input-group">
-                                                <input id="password" type="password" class="form-control form-control-lg @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" autocomplete="off">
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text toggle-password">
-                                                        <i class="fas fa-eye"></i>
-                                                    </span>
-                                                </div>
-                                            </div>
+                                            <input id="password" type="password" class="form-control form-control-lg @error('password') is-invalid @enderror" name="password" required autocomplete="current-password"
+                                            autocomplete="off"
+                                            >
                                             @error('password')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
                                             </span>
                                             @enderror
                                         </div>
-                                        </div>
-                                        <div class="text-center">
+                                    </div>
+
+                                    <div class="text-center">
                                         <button type='submit' class="btn btn-dark ripple-surface">Acceder</button>
                                         <hr>
                                         <div class="form-check">
@@ -356,11 +348,10 @@
     <footer class="page-footer text-center font-small mt-4 wow fadeIn">
 
         <div class="pt-4">
-           <a class="btn btn-primary" href="https://api.whatsapp.com/send/?phone=573182711649&text&app_absent=0" target="_blank" rel="noopener" role="button" style="text-transform: lowercase;">
-                <i class="fas fa-chalkboard-teacher mr-2"></i>
-                Solicitar un demo
+            <a class="btn btn-primary" href="https://api.whatsapp.com/send/?phone=573182711649&text&app_absent=0" target="_blank" rel="noopener" role="button">
+                    <i class="fas fa-chalkboard-teacher mr-2"></i>
+                    Solicitar una demo
             </a>
-
         </div>
 
         <hr class="my-4">
@@ -390,19 +381,7 @@
             <a href="https://quik.com.co" target="_blank" rel="noopener"> Quik S.A.S. </a>
         </div>
     </footer>
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const togglePassword = document.querySelector('.toggle-password');
-        const passwordInput = document.querySelector('#password');
 
-        togglePassword.addEventListener('click', function () {
-            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-            passwordInput.setAttribute('type', type);
-            togglePassword.querySelector('i').classList.toggle('fa-eye');
-            togglePassword.querySelector('i').classList.toggle('fa-eye-slash');
-        });
-    });
-</script>
     <script src="{{ asset('js/jquery.min.js?v_beta') }}"></script>
     <script src="{{ asset('js/popper.min.js?v_beta') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js?v_beta') }}"></script>

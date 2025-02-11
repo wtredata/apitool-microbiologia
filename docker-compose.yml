@@ -11,6 +11,7 @@ services:
       - '--default-authentication-plugin=mysql_native_password'
       # crear la base de datos a partir de un archivo sql
       - '--init-file=/docker-entrypoint-initdb.d/init.sql'
+      - '--bind-address=0.0.0.0'
     restart: always
     healthcheck:
       test: ['CMD-SHELL', 'mysqladmin ping -h 127.0.0.1 --password="$$(cat /run/secrets/db-password)" --silent']
@@ -27,9 +28,9 @@ services:
     environment:
       - MYSQL_DATABASE=apitools
       - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db-password
-    expose:
-      - 3306
-      - 33060
+    ports:
+      - "33061:3306"
+      - "33060:33060"
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -40,6 +41,7 @@ services:
       PMA_HOST: db_apitools
       PMA_PORT: 3306
       MYSQL_ROOT_PASSWORD: /run/secrets/db-password
+      UPLOAD_LIMIT: 500M
     networks:
       - apitoolNet
     links:
@@ -66,7 +68,8 @@ services:
     links:
         - db_apitools
     ports:
-      - "90:80"
+      - "9000:80"
+  
   # nginx:
   #   image: nginx:alpine
   #   container_name: nginx-apitools

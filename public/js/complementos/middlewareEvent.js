@@ -106,6 +106,25 @@ function eventosGenerales(e) {
             }
           }());
           break;
+        case "AddFilaResultadosMicrobiologia": // Se paso a una funcion externa por ser llamada muchas veces
+          (function () {
+            if (typeof window.analito_node != "undefined") {
+              agregarFilaResultadosMicrobiologia();
+            } else {
+              notificacion("normal", "warning", "Debe seleccionar primero un medio...");
+            }
+          }());
+          break;
+        
+        case "AddFilaResultadosTinciones": // Se paso a una funcion externa por ser llamada muchas veces
+          (function () {
+            if (typeof window.analito_node != "undefined") {
+              agregarFilaResultadosMicrobiologia();
+            } else {
+              notificacion("normal", "warning", "Debe seleccionar primero una tincion...");
+            }
+          }());
+          break;
 
         case "DinamicModal":
           dinamicModal(
@@ -940,6 +959,17 @@ function eventosGenerales(e) {
               guardarResultadosCualitativo(elementEvent);
             } else {
               notificacion("normal", "warning", "Debe seleccionar primero un analito...");
+            }
+          }());
+
+          break;
+        case "SaveResultsMicrobiologia":
+
+          (function () {
+            if (typeof window.analito_node != "undefined") {
+              guardarResultadosMicrobiologia(elementEvent);
+            } else {
+              notificacion("normal", "warning", "Debe seleccionar primero un medio de cultivo...");
             }
           }());
 

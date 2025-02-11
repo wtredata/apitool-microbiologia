@@ -21,21 +21,6 @@
                     class='metodologia'> - - - </span> <br/>
                 <strong>Reactivo:</strong> <span class='reactivo'> - - - </span> <strong>Temperatura:</strong> <span
                     class='temperatura'> - - - </span> <br/>
-                    <form action="{{route('downloadCommit')}}" method="POST" id="form-download-commit">
-                        @csrf
-                        <input type="hidden" id="id_analito_lab_commit" name="analito_lab" value="{{ $id_analito_lab }}">
-                        <input type="hidden" id="info_laboratorio" name="info_laboratorio" >
-                        <input type="hidden" id="info_matriz" name="info_matriz" >
-                        <input type="hidden" id="info_control" name="info_control" >
-                        <input type="hidden" id="info_lote" name="info_lote" >
-                        <input type="hidden" id="info_fecha_caducidad" name="info_fecha_caducidad" >
-                        <input type="hidden" id="info_analito" name="info_analito" >
-                        <input type="hidden" id="info_analizador" name="info_analizador" >
-                        <input type="hidden" id="info_unidades" name="info_unidades" >
-                        <input type="hidden" id="info_metodologia" name="info_metodologia" >
-                        <input type="hidden" id="info_reactivo" name="info_reactivo" >
-                        <input type="hidden" id="info_temperatura" name="info_temperatura" >
-                    </form>
             </p>
         </div>
 
@@ -84,23 +69,19 @@
                     <div class="bg-white p-3 border">
 
                         @if($rol_usuario == 1 || $rol_usuario == 2 || $rol_usuario == 5 || $rol_usuario == 3)
-                            <div class=" d-flex align-items-center justify-content-between">
-                                <div class='bg-white mb-2' id='addrow_coment_rf1'>
-                                    <button type="button" class="btn btn-sm btn-outline-primary shadow-none btnEvent"
-                                            data-event='click' data-route='AddFilaResultadosCualitativo'>
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
-                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                            stroke-linejoin="round" class="align-middle mr-2">
-                                            <line x1="12" y1="5" x2="12" y2="19"></line>
-                                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                                        </svg>
-                                        Agregar fila
-                                    </button>
-                                </div>
-                                <button href="javascript:void(0)" form="form-download-commit" type="submit" class="btn btn-sm btn-outline-primary waves-effect">Descargar comentarios</button>
+                            <div class='bg-white mb-2' id='addrow_coment_rf1'>
+                                <button type="button" class="btn btn-sm btn-outline-primary shadow-none btnEvent"
+                                        data-event='click' data-route='AddFilaResultadosCualitativo'>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="align-middle mr-2">
+                                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    </svg>
+                                    Agregar fila
+                                </button>
                             </div>
-
                         @endif
                         
                         <table class="table table-sm tabla-encabezado-resultados mb-0 text-center">

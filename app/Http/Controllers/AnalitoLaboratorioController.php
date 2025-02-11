@@ -289,7 +289,6 @@ class AnalitoLaboratorioController extends Controller
 
     $analito_laboratorio = self::listItem($req->id);
     $estructura_analito = array(
-      "id_analito_laboratorio" => $req->id,
       "laboratorio" => $analito_laboratorio->num_laboratorio . " - " . $analito_laboratorio->nom_laboratorio,
       "matriz" => $analito_laboratorio->nom_matriz,
       "control" => $analito_laboratorio->nom_control,

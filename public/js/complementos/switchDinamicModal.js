@@ -14,6 +14,82 @@ function switchDinamicModal(routeEventClear){
             switchSelect2($("#control_lab_lote"), "ControlLaboratorio");
 
             break;
+        
+        case "ControlConfiguracionMedios":
+            
+            $("#sectionModalsD .modal").modal({backdrop: 'static',keyboard: false,show: true});
+
+            $(".modal-backdrop").eq(1).addClass("bg-transparent");
+            
+            tablaDinamica(
+                $("#sectionModalsD .dinamicTable"),
+                { autoWidth: false, order: [], aaSorting: [], paging: false}
+            );
+
+            switchSelect2($("#control_lab_medio"), "ControlConfiguracionMedios");
+
+            break;
+        
+        case "ControlConfiguracionTinciones":
+            
+            $("#sectionModalsD .modal").modal({backdrop: 'static',keyboard: false,show: true});
+
+            $(".modal-backdrop").eq(1).addClass("bg-transparent");
+                
+            tablaDinamica(
+                    $("#sectionModalsD .dinamicTable"),
+                    { autoWidth: false, order: [], aaSorting: [], paging: false}
+                );
+
+                switchSelect2($("#control_lab_tincion"), "ControlConfiguracionTinciones");
+
+            break;
+        
+        case "ControlConfiguracionPruebas":
+            
+            $("#sectionModalsD .modal").modal({backdrop: 'static',keyboard: false,show: true});
+    
+            $(".modal-backdrop").eq(1).addClass("bg-transparent");
+                
+            tablaDinamica(
+                    $("#sectionModalsD .dinamicTable"),
+                    { autoWidth: false, order: [], aaSorting: [], paging: false}
+                );
+    
+                switchSelect2($("#control_lab_prueba"), "ControlConfiguracionPruebas");
+    
+                break;
+                
+
+        case "ControlConfiguracionMediosCepa":
+            
+            $("#sectionModalsD .modal").modal({backdrop: 'static',keyboard: false,show: true});
+
+            $(".modal-backdrop").eq(1).addClass("bg-transparent");
+            
+            tablaDinamica(
+                $("#sectionModalsD .dinamicTable"),
+                { autoWidth: false, order: [], aaSorting: [], paging: false}
+            );
+
+            switchSelect2($("#control_lab_cepa"), "ControlConfiguracionMediosCepa");
+
+            break;
+
+    case "ControlConfiguracionTincionesCepa":
+            
+            $("#sectionModalsD .modal").modal({backdrop: 'static',keyboard: false,show: true});
+
+            $(".modal-backdrop").eq(1).addClass("bg-transparent");
+            
+            tablaDinamica(
+                $("#sectionModalsD .dinamicTable"),
+                { autoWidth: false, order: [], aaSorting: [], paging: false}
+            );
+
+            switchSelect2($("#control_lab_cepa2"), "ControlConfiguracionTincionesCepa");
+
+            break;
 
         case "AnalitoLaboratorio":
             
