@@ -9,6 +9,8 @@ function validacionResultados(){
 
         if(verificarFilaVacia(trAct)){ // Verificación de que minimo un campo este diligenciado
             return false;
+        } else if(verificarNumerosNegativos(trAct)) { // Validacion de valor negativo
+            return false;
         } else if(verificarLimite(trAct)) { // Validacion de limites de enteros y decimales
             return false;
         } 
@@ -69,7 +71,7 @@ function verificarFilaVacia(fila){
     }
 }
 
-/*function verificarNumerosNegativos(fila){
+function verificarNumerosNegativos(fila){
 
     let inputsResultados = fila.find(".resultado");
 
@@ -80,7 +82,7 @@ function verificarFilaVacia(fila){
             return true;
         }
     }
-}*/
+}
 
 function verificarLimite(fila){
 /*

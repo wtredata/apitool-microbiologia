@@ -181,9 +181,158 @@ function switchSelect2(element, modulo) {
                 }
             });
             break;
+            
+            case "ControlConfiguracionMedios":
+            element.select2({
+                placeholder: 'Busque por nombre del medio de cultivo',
+                minimumInputLength: 1,
+                ajax: {
+                    url: "GetMedioCultivo",
+                    dataType: "json",
+                    delay: 250,
+                    data: function (params) {
+                        return {
+                            busqueda: params.term
+                        }
+                    },
+                    processResults: function (data) {
+                        return {
+                            results: data
+                        };
+                    },
+                    transport: function (params, success, failure) {
+                        var $request = $.ajax(params);
 
+                        $request.then(success);
+                        $request.fail(failure);
+
+                        return $request;
+                    }
+                }
+            });
+            break;
+            
+            case "ControlConfiguracionTinciones":
+            element.select2({
+                placeholder: 'Busque por nombre de la tinción',
+                minimumInputLength: 1,
+                ajax: {
+                    url: "GetTincion",
+                    dataType: "json",
+                    delay: 250,
+                    data: function (params) {
+                        return {
+                            busqueda: params.term
+                        }
+                    },
+                    processResults: function (data) {
+                        return {
+                            results: data
+                        };
+                    },
+                    transport: function (params, success, failure) {
+                        var $request = $.ajax(params);
+
+                        $request.then(success);
+                        $request.fail(failure);
+
+                        return $request;
+                    }
+                }
+            });
+            break;
+
+            case "ControlConfiguracionPruebas":
+            element.select2({
+                placeholder: 'Busque por nombre de la prueba',
+                minimumInputLength: 1,
+                ajax: {
+                    url: "GetPrueba",
+                    dataType: "json",
+                    delay: 250,
+                    data: function (params) {
+                        return {
+                            busqueda: params.term
+                        }
+                    },
+                    processResults: function (data) {
+                        return {
+                            results: data
+                        };
+                    },
+                    transport: function (params, success, failure) {
+                        var $request = $.ajax(params);
+
+                        $request.then(success);
+                        $request.fail(failure);
+
+                        return $request;
+                    }
+                }
+            });
+            break;
+
+            case "ControlConfiguracionMediosCepa":
+            element.select2({
+                placeholder: 'Busque por nombre de la cepa',
+                minimumInputLength: 1,
+                ajax: {
+                    url: "GetCepa",
+                    dataType: "json",
+                    delay: 250,
+                    data: function (params) {
+                        return {
+                            busqueda: params.term
+                        }
+                    },
+                    processResults: function (data) {
+                        return {
+                            results: data
+                        };
+                    },
+                    transport: function (params, success, failure) {
+                        var $request = $.ajax(params);
+
+                        $request.then(success);
+                        $request.fail(failure);
+
+                        return $request;
+                    }
+                }
+            });
+            break;
+            case "ControlConfiguracionTincionesCepa":
+            element.select2({
+                placeholder: 'Busque por nombre de la cepa',
+                minimumInputLength: 1,
+                ajax: {
+                    url: "GetCepa",
+                    dataType: "json",
+                    delay: 250,
+                    data: function (params) {
+                        return {
+                            busqueda: params.term
+                        }
+                    },
+                    processResults: function (data) {
+                        return {
+                            results: data
+                        };
+                    },
+                    transport: function (params, success, failure) {
+                        var $request = $.ajax(params);
+
+                        $request.then(success);
+                        $request.fail(failure);
+
+                        return $request;
+                    }
+                }
+            });
+            break;
         default:
             element.select2();
             break;
+            
     }
 }

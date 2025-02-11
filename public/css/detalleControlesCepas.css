@@ -1,0 +1,97 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    word-wrap: break-word;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+
+table th {
+    width: 20%;
+    /* Ajusta el ancho según la columna */
+}
+
+textarea {
+    width: 90%;
+    /* Ajusta los inputs al tamaño de las celdas */
+    font-size: 12px;
+    /* Reduce el tamaño del texto */
+}
+
+textarea {
+    font-size: 10px;
+    margin: 1px;
+    padding: 1px;
+}
+
+input[type="file"] {
+    width: 100%;
+    /* Asegura que no sea más ancho que su contenedor */
+    max-width: 120px;
+    /* Limita el ancho máximo */
+    font-size: 12px;
+    /* Reduce el tamaño del texto */
+    padding: 3px;
+    /* Ajusta el relleno */
+    margin: 0 auto;
+    /* Centra el input */
+}
+
+#select-reg-control {
+    /* width: auto; */
+    /* Ajusta el tamaño según el contenido */
+    /* Limita el ancho máximo */
+    font-size: 12px;
+    /* Reduce el tamaño del texto */
+    padding: 3px;
+    /* Ajusta el relleno */
+    margin: 2px;
+    /* Agrega espacio alrededor */
+    text-align: center;
+    /* Centra el texto del select */
+}
+
+button {
+    width: auto;
+}
+
+.icono-perfil-2 {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    padding: 5%;
+    border-radius: 3px;
+}
+
+#col-accion {
+    width: 30%;
+}
+
+thead {
+    background-color: #212e3c;
+    color: #fff;
+}
+
+.enlace-pdf{
+    text-align: right;
+}
+.icon-pdf {
+    color: red;
+    width: 32px;
+    height: 32px;
+}
+
+#card-update{
+    margin-top: 20px;
+}
+
+button#btn-accion {
+    padding: 5px 15px;
+    width: auto !important;
+}

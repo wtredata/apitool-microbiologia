@@ -21,22 +21,6 @@
                     class='metodologia'> - - - </span> <br/>
                 <strong>Reactivo:</strong> <span class='reactivo'> - - - </span> <strong>Temperatura:</strong> <span
                     class='temperatura'> - - - </span> <br/>
-                                                
-                    <form action="{{route('downloadCommit')}}" method="POST" id="form-download-commit">
-                        @csrf
-                        <input type="hidden" id="id_analito_lab_commit" name="analito_lab" value="{{ $id_analito_lab }}">
-                        <input type="hidden" id="info_laboratorio" name="info_laboratorio" >
-                        <input type="hidden" id="info_matriz" name="info_matriz" >
-                        <input type="hidden" id="info_control" name="info_control" >
-                        <input type="hidden" id="info_lote" name="info_lote" >
-                        <input type="hidden" id="info_fecha_caducidad" name="info_fecha_caducidad" >
-                        <input type="hidden" id="info_analito" name="info_analito" >
-                        <input type="hidden" id="info_analizador" name="info_analizador" >
-                        <input type="hidden" id="info_unidades" name="info_unidades" >
-                        <input type="hidden" id="info_metodologia" name="info_metodologia" >
-                        <input type="hidden" id="info_reactivo" name="info_reactivo" >
-                        <input type="hidden" id="info_temperatura" name="info_temperatura" >
-                    </form>
             </p>
         </div>
 
@@ -82,10 +66,9 @@
 
                 <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
 
-                    <div class="bg-white p-3 border" >
+                    <div class="bg-white p-3 border">
 
                         @if($rol_usuario == 1 || $rol_usuario == 2 || $rol_usuario == 5 || $rol_usuario == 3)
-                        <div class=" d-flex align-items-center justify-content-between">
                             <div class='bg-white mb-2' id='addrow_coment_rf1'>
                                 <button type="button" class="btn btn-sm btn-outline-primary shadow-none btnEvent"
                                         data-event='click' data-route='AddFilaResultados'>
@@ -99,10 +82,6 @@
                                     Agregar fila
                                 </button>
                             </div>
-
-                            <button href="javascript:void(0)" form="form-download-commit" type="submit" class="btn btn-sm btn-outline-primary waves-effect" target="_blank">Descargar comentarios</button>
-
-                        </div>
                         @endif
 
                         <table class="table table-sm tabla-encabezado-resultados mb-0 text-center">
@@ -113,7 +92,9 @@
                                 <th scope='col' class='col-1 font-weight-bold'>Comentario</th>
                                 <th scope='col' class='col-2 font-weight-bold'>Fecha</th>
                                 <th scope='col' class='col-3 font-weight-bold'>Concentración nivel 1</th>
+                                <th scope='col' class='col-1 font-weight-bold'>R.E</th>
                                 <th scope='col' class='col-3 font-weight-bold'>Concentración nivel 2</th>
+                                <th scope='col' class='col-1 font-weight-bold'>R.E</th>
                                 <th scope='col' class='col-2 font-weight-bold'>Acciones</th>
                             </tr>
                             </thead>
@@ -135,29 +116,49 @@
                 </div>
             </div>
         </div>
+        
         <div class="col-12 col-md-5">
-            <div class="row">
-                <div class="col-12 mb-3">
-                    <div class="row pt-1">
-                        <div class="col-sm mt-2 mt-sm-0">
-                            <label class="form-label font-weight-bold">Fecha de cálculo</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-6 mb-2 mb-sm-0">
-                            <input type="date" id="valores-estadisticos-f-inicial"
-                                   class="form-control btnEvent height-input" data-event="change"
-                                   data-tipofecha="fecha_inicial" data-route="ListarValoresEstadisticos"
-                                   value='{{ $fecha_inicial }}'/>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="date" id="valores-estadisticos-f-final"
-                                   class="form-control btnEvent height-input" data-event="change"
-                                   data-tipofecha="fecha_final" data-route="ListarValoresEstadisticos"
-                                   value='{{ $fecha_final }}'/>
-                        </div>
-                    </div>
+    <!-- Nuevo div contenedor para los botones -->
+    <div class="row mb-3">
+        <div class="col-12">
+            <div class="button-container">
+                <label class="form-label font-weight-bold">Reglas estadisticas Westgard</label>
+                <br>
+                <button type="button" class="btn btn-outline-primary">1-2s</button>
+                <button type="button" class="btn btn-outline-primary">1-3s</button>
+                <button type="button" class="btn btn-outline-primary">2-2s</button>
+                <br>
+                <button type="button" class="btn btn-outline-primary">R-4s</button>
+                <button type="button" class="btn btn-outline-primary">4-1s</button>
+                <button type="button" class="btn btn-outline-primary">10-x</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mb-3">
+            <div class="row pt-1">
+                <div class="col-sm mt-2 mt-sm-0">
+                    <label class="form-label font-weight-bold">Fecha de cálculo</label>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 mb-2 mb-sm-0">
+                    <input type="date" id="valores-estadisticos-f-inicial"
+                           class="form-control btnEvent height-input" data-event="change"
+                           data-tipofecha="fecha_inicial" data-route="ListarValoresEstadisticos"
+                           value='{{ $fecha_inicial }}'/>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <input type="date" id="valores-estadisticos-f-final"
+                           class="form-control btnEvent height-input" data-event="change"
+                           data-tipofecha="fecha_final" data-route="ListarValoresEstadisticos"
+                           value='{{ $fecha_final }}'/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
                 <div id='contenedor-valores-estadisticos' class='m-0 p-0'>

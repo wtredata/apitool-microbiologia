@@ -18,6 +18,10 @@ use App\Http\Controllers\AnalitoController;
 use App\Http\Controllers\UsuarioController;
 use App\Http\Controllers\RolController;
 use App\Http\Controllers\ControlController;
+use App\Http\Controllers\CepaController;
+use App\Http\Controllers\MedioController;
+use App\Http\Controllers\TincionController;
+use App\Http\Controllers\PruebaController;
 use Auth;
 
 
@@ -47,12 +51,20 @@ class ConfiguracionController extends Controller{
         $usuarios = UsuarioController::listAll();
         $analitos = AnalitoController::listAll();
         $controles = ControlController::listAll();
+        $cepas = CepaController::listAll();
+        $medios = MedioController::listAll();
+        $tinciones = TincionController::listAll();
+        $pruebas = PruebaController::listAll();
 
         $matricesList = MatrizController::list();
         $rolesList = RolController::list();
         $paisesList = PaisController::list();
+        $cepasList = CepaController::list();
+        $mediosList = MedioController::list();
         $proveedoresList = ProveedorController::List();
         $institucionesList = InstitucionController::List();
+        $tincionesList = TincionController::List();
+        $pruebasList = PruebaController::List();
         $sedesList = SedeController::List();
         $analitosList = AnalitoController::List();
         $fuenteETMPList = FuenteETMPController::List();
@@ -61,10 +73,13 @@ class ConfiguracionController extends Controller{
             ->with("instituciones",$instituciones)
             ->with("analizadores",$analizadores)
             ->with("paises",$paises)
+            ->with("medios",$medios)
             ->with("usuarios",$usuarios)
             ->with("proveedores",$proveedores)
             ->with("metodologias",$metodologias)
             ->with("unidades",$unidades)
+            ->with("tinciones",$tinciones)
+            ->with("pruebas",$pruebas)
             ->with("temperaturas",$temperaturas)
             ->with("reactivos",$reactivos)
             ->with("matrices",$matrices)
@@ -72,6 +87,9 @@ class ConfiguracionController extends Controller{
             ->with("fuentesETMP",$fuentesETMP)
             ->with("matricesList",$matricesList)
             ->with("paisesList",$paisesList)
+            ->with("cepasList",$cepasList)
+            ->with("mediosList",$mediosList)
+            ->with("tincionesList",$tincionesList)
             ->with("proveedoresList",$proveedoresList)
             ->with("institucionesList",$institucionesList)
             ->with("sedesList",$sedesList)
@@ -79,6 +97,7 @@ class ConfiguracionController extends Controller{
             ->with("analitosList",$analitosList)
             ->with("fuenteETMPList",$fuenteETMPList)
             ->with("controles",$controles)
+            ->with("cepas",$cepas)
             ->with("ciudades",[])
             ->with("variabilidadesBiologicas",[])
             ->with("lotes",[])

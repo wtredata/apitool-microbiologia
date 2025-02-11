@@ -1,13 +1,13 @@
 <?php return array (
   'barryvdh/laravel-dompdf' => 
   array (
+    'aliases' => 
+    array (
+      'PDF' => 'Barryvdh\\DomPDF\\Facade\\Pdf',
+    ),
     'providers' => 
     array (
       0 => 'Barryvdh\\DomPDF\\ServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'PDF' => 'Barryvdh\\DomPDF\\Facade',
     ),
   ),
   'codedge/laravel-fpdf' => 
@@ -23,13 +23,13 @@
   ),
   'facade/ignition' => 
   array (
-    'providers' => 
-    array (
-      0 => 'Facade\\Ignition\\IgnitionServiceProvider',
-    ),
     'aliases' => 
     array (
       'Flare' => 'Facade\\Ignition\\Facades\\Flare',
+    ),
+    'providers' => 
+    array (
+      0 => 'Facade\\Ignition\\IgnitionServiceProvider',
     ),
   ),
   'fideloper/proxy' => 
@@ -62,13 +62,13 @@
   ),
   'nahidulhasan/html2pdf' => 
   array (
-    'providers' => 
-    array (
-      0 => 'NahidulHasan\\Html2pdf\\Html2pdfServiceProvider',
-    ),
     'aliases' => 
     array (
       'Pdf' => 'NahidulHasan\\Html2pdf\\Facades\\Pdf',
+    ),
+    'providers' => 
+    array (
+      0 => 'NahidulHasan\\Html2pdf\\Html2pdfServiceProvider',
     ),
   ),
   'nesbot/carbon' => 

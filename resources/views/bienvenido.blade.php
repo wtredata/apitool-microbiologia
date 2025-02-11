@@ -20,7 +20,7 @@
 
                     <div class="col-md-6 mb-4 text-center text-md-left pr-4 p-md-2">
 
-                        <h1 class="display-6 text-center font-weight-bold">¡Hola, {{ explode(" ", $nombres)[0] }}!
+                        <h1 class="display-6 text-center font-weight-bold">¡Hola, {{ explode(" ", Auth::user()->nombress)[0] }}!
                         </h1>
 
                         <hr class="hr-dark">

@@ -28,4 +28,20 @@ class Usuario extends Authenticatable
     protected $hidden = [
         "remember_token"
     ];
+
+    public function laboratorios(){
+        return $this->belongsToMany(Laboratorio::class,'laboratorio_usuario');
+    }
+
+    public function controlesCepaMedio(){
+        return $this->hasMany(ControlCepaMedio::class);
+    }
+
+    public function controlesCepaTincion(){
+        return $this->hasMany(ControlCepaTincion::class);
+    }
+
+    public function controlesCepaPruebaSensibilidad(){
+        return $this->hasMany(ControlCepaPruebaSensibilidad::class);
+    }
 }

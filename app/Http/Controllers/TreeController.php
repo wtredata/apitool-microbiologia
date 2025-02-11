@@ -7,11 +7,13 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\LaboratorioController;
 use App\Http\Controllers\ControlLaboratorioController;
 use App\Http\Controllers\AnalitoLaboratorioController;
-use App\Http\Controllers\SerieController;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 //use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
-
+use App\Medio;
+use App\Cepa;
+use App\Tincion;
+use App\Prueba;
 // Requests
 use Illuminate\Http\Request;
 
@@ -44,7 +46,7 @@ class TreeController extends Controller
                                 "icon" => "icon-laboratorio",
                                 "lazy" => "true",
                                 "tipo_nodo" => "laboratorio",
-                                "tipo_subitem" => "lote",
+                                "tipo_subitem" => $req->medios == "microbiologia" ? "medios" : "lote",
                                 "id_reference" => $laboratorio->id_laboratorio
                             ]
                         );
@@ -57,7 +59,7 @@ class TreeController extends Controller
                                 "icon" => "icon-laboratorio",
                                 "lazy" => "true",
                                 "tipo_nodo" => "laboratorio",
-                                "tipo_subitem" => "lote",
+                                "tipo_subitem" => $req->medios == "microbiologia" ? "medios" : "lote",
                                 "id_reference" => $laboratorio->id_laboratorio
                             ]
                         );
@@ -85,6 +87,150 @@ class TreeController extends Controller
                 }
 
                 break;
+
+            case "medios":
+                if (isset($req->id_laboratorio)) {
+                    $cepas_lab = \DB::table("cepa_laboratorio AS cl")
+                                    ->select("cl.id_cepa_laboratorio AS id_reference", "c.nom_cepa", "c.id_cepa")
+                                    ->where("id_laboratorio", $req->id_laboratorio)
+                                    ->where("id_medio", $req->id_reference)
+                                    ->join("cepa AS c", "c.id_cepa", "=", "cl.id_cepa")
+                                    ->get();
+
+                    foreach ($cepas_lab as $cepo_cultivo) {
+                        array_push(
+                            $this->arrayTree,
+                            [
+                                "title" => $cepo_cultivo->id_cepa . " - " . $cepo_cultivo->nom_cepa,
+                                "tooltip" => $cepo_cultivo->id_cepa . " - " . $cepo_cultivo->nom_cepa,
+                                "icon" => "icon-analito",
+                                "tipo_nodo" => "cepa",
+                                "id_reference" => $cepo_cultivo->id_reference
+                            ]
+                        );
+                    }
+                } else {
+                    $medios_lab = \DB::table('medio_laboratorio')
+                                    ->select("id_medio")
+                                    ->where("id_laboratorio", $req->id_reference)
+                                    ->get()
+                                    ->pluck("id_medio");
+                    $medios_cultivo = Medio::whereIn("id_medio", $medios_lab)->get();
+
+                    foreach ($medios_cultivo as $medio_cultivo) {
+                        array_push(
+                            $this->arrayTree,
+                            [
+                                "title" => $medio_cultivo->id_medio . " - " . $medio_cultivo->nom_medio,
+                                "tooltip" => $medio_cultivo->id_medio . " - " . $medio_cultivo->nom_medio,
+                                "icon" => "icon-lote",
+                                "lazy" => "true",
+                                "tipo_nodo" => "medio",
+                                "tipo_subitem" => "cepa",
+                                "id_reference" => $medio_cultivo->id_medio,
+                                "id_laboratorio" => $req->id_reference
+                            ]
+                        );
+                    }
+                }                
+                break;
+            
+                case "tinciones":
+                    if (isset($req->id_laboratorio)) {
+                        $tinciones_lab = \DB::table("tincion_laboratorio AS cl")
+                            ->select("cl.id_tincion_laboratorio AS id_reference", "c.nom_tincion", "c.id_tincion")
+                            ->where("cl.id_laboratorio", $req->id_laboratorio)  // Se agrega el alias 'cl'
+                            ->where("c.id_tincion", $req->id_reference)  // Se agrega el alias 'c' para especificar la tabla 'tinciones'
+                            ->join("tinciones AS c", "c.id_tincion", "=", "cl.id_tincion")
+                            ->get();
+                
+                        foreach ($tinciones_lab as $tincion_cultivo) {
+                            array_push(
+                                $this->arrayTree,
+                                [
+                                    "title" => $tincion_cultivo->id_tincion . " - " . $tincion_cultivo->nom_tincion,
+                                    "tooltip" => $tincion_cultivo->id_tincion . " - " . $tincion_cultivo->nom_tincion,
+                                    "icon" => "icon-analito",
+                                    "tipo_nodo" => "cepa",
+                                    "id_reference" => $tincion_cultivo->id_reference
+                                ]
+                            );
+                        }
+                    } else {
+                        $tinciones_lab = \DB::table('tincion_laboratorio')
+                            ->select("id_tincion")
+                            ->where("id_laboratorio", $req->id_reference)
+                            ->get()
+                            ->pluck("id_tincion");
+                
+                        $tinciones_cultivo = Tincion::whereIn("id_tincion", $tinciones_lab)->get();
+                
+                        foreach ($tinciones_cultivo as $tincion_cultivo) {
+                            array_push(
+                                $this->arrayTree,
+                                [
+                                    "title" => $tincion_cultivo->id_tincion . " - " . $tincion_cultivo->nom_tincion,
+                                    "tooltip" => $tincion_cultivo->id_tincion . " - " . $tincion_cultivo->nom_tincion,
+                                    "icon" => "icon-lote",
+                                    "lazy" => "true",
+                                    "tipo_nodo" => "tincion",
+                                    "tipo_subitem" => "tincion",
+                                    "id_reference" => $tincion_cultivo->id_tincion,
+                                    "id_laboratorio" => $req->id_reference
+                                ]
+                            );
+                        }
+                    }
+                    break;                
+            
+                    case "pruebas":
+                        if (isset($req->id_laboratorio)) {
+                            $pruebas_lab = \DB::table("prueba_laboratorio AS cl")
+                                ->select("cl.id_prueba_laboratorio AS id_reference", "c.nom_prueba", "c.id_prueba")
+                                ->where("cl.id_laboratorio", $req->id_laboratorio)  // Se agrega el alias 'cl'
+                                ->where("c.id_prueba", $req->id_reference)  // Se agrega el alias 'c' para especificar la tabla 'tinciones'
+                                ->join("prueba AS c", "c.id_prueba", "=", "cl.id_prueba")
+                                ->get();
+                    
+                            foreach ($pruebas_lab as $prueba_cultivo) {
+                                array_push(
+                                    $this->arrayTree,
+                                    [
+                                        "title" => $prueba_cultivo->id_prueba . " - " . $prueba_cultivo->nom_prueba,
+                                        "tooltip" => $prueba_cultivo->id_prueba . " - " . $prueba_cultivo->nom_prueba,
+                                        "icon" => "icon-analito",
+                                        "tipo_nodo" => "prueba",
+                                        "id_reference" => $prueba_cultivo->id_reference
+                                    ]
+                                );
+                            }
+                        } else {
+                            $pruebas_lab = \DB::table('prueba_laboratorio')
+                                ->select("id_prueba")
+                                ->where("id_laboratorio", $req->id_reference)
+                                ->get()
+                                ->pluck("id_prueba");
+                    
+                            $prueba_cultivo = Prueba::whereIn("id_prueba", $pruebas_lab)->get();
+                    
+                            foreach ($pruebas_lab as $prueba_cultivo) {
+                                array_push(
+                                    $this->arrayTree,
+                                    [
+                                        "title" => $prueba_cultivo->id_prueba . " - " . $prueba_cultivo->nom_prueba,
+                                        "tooltip" => $prueba_cultivo->id_prueba . " - " . $prueba_cultivo->nom_prueba,
+                                        "icon" => "icon-lote",
+                                        "lazy" => "true",
+                                        "tipo_nodo" => "prueba",
+                                        "tipo_subitem" => "cepa",
+                                        "id_reference" => $prueba_cultivo->id_prueba,
+                                        "id_laboratorio" => $req->id_reference
+                                    ]
+                                );
+                            }
+                        }
+                        break;           
+                    
             case "analito_cuantitativo":
 
                 $analitos_lab = AnalitoLaboratorioController::listByControlLaboratorio($req->id_reference);
@@ -167,99 +313,6 @@ class TreeController extends Controller
 
         // Salida del archivo al cliente
         $writer->save('php://output');
-        exit;
-    }
-    public function downloadCommit(Request $req)
-    {
-
-        $analito_lab = $req->analito_lab;
-        $laboratorio = $req->info_laboratorio;
-        $matriz = $req->info_matriz;
-        $control = $req->info_control;
-        $lote = $req->info_lote;
-        $fecha_caducidad = $req->info_fecha_caducidad;
-        $analito = $req->info_analito;
-        $analizador = $req->info_analizador;
-        $unidades = $req->info_unidades;
-        $metodologia = $req->info_metodologia;
-        $reactivo = $req->info_reactivo;
-        $temperatura = $req->info_temperatura;
-        if(isset($analito_lab)){
-            $arrayTreeDown = [];
-            $laboratorios = LaboratorioController::listByUsuario();
-            $series = SerieController::ListByAnalito($analito_lab);
-    
-            foreach ($series as $serie) {
-                if(!empty($serie->comentario)){
-                    array_push(
-                        $arrayTreeDown,
-                        [
-                            "comentario" => $serie->comentario
-                        ]
-                    );
-                }
-            };
-            $spreadsheet = new Spreadsheet();
-            $sheet = $spreadsheet->getActiveSheet();
-            $sheet->setCellValue('A1', 'Laboratorio');
-            $sheet->setCellValue('B1', 'Matriz');
-            $sheet->setCellValue('C1', 'Control');
-            $sheet->setCellValue('D1', 'Lote');
-            $sheet->setCellValue('E1', 'Fecha Caducidad');
-            $sheet->setCellValue('F1', 'Analito');
-            $sheet->setCellValue('G1', 'Analizador');
-            $sheet->setCellValue('H1', 'Unidades');
-            $sheet->setCellValue('I1', 'Metodologia');
-            $sheet->setCellValue('J1', 'Reactivo');
-            $sheet->setCellValue('K1', 'Temperatura');
-            $sheet->getStyle("A1:K1")->getFont()->setBold( true );
-
-            $sheet->setCellValue('A2', $laboratorio);
-            $sheet->setCellValue('B2', $matriz);
-            $sheet->setCellValue('C2', $control);
-            $sheet->setCellValue('D2', $lote);
-            $sheet->setCellValue('E2', $fecha_caducidad);
-            $sheet->setCellValue('F2', $analito);
-            $sheet->setCellValue('G2', $analizador);
-            $sheet->setCellValue('H2', $unidades);
-            $sheet->setCellValue('I2', $metodologia);
-            $sheet->setCellValue('J2', $reactivo);
-            $sheet->setCellValue('K2', $temperatura);
-
-            
-            $sheet->setCellValue('A4', 'Comentarios');
-            $sheet->getStyle("A4")->getFont()->setBold( true );
-
-            $row = 5;
-            foreach ($arrayTreeDown as $data) {
-                $column = 'A';
-                foreach ($data as $value) {
-                    $sheet->setCellValue($column . $row, $value);
-                    $column++;
-                }
-                $row++;
-            }
-            //$writer = IOFactory::createWriter($spreadsheet, 'Xlsx');
-            //$writer->save('archivo.xlsx');
-    
-            // Crear instancia de Writer y generar el contenido del archivo
-            $writer = new Xlsx($spreadsheet);
-            $writer->setIncludeCharts(true);
-
-            $filename = 'Lista comentarios - '.$laboratorio.' - '. $lote . ' - ' . $analito . ' - ' .date('Ymd_His') . '.xlsx';;
-    
-            // Configurar las cabeceras para la descarga
-            header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-            header('Content-Disposition: attachment;filename="'.$filename.'"');
-            header('Cache-Control: max-age=0');
-    
-            // Salida del archivo al cliente
-            $writer->save('php://output');
-            
-        }else{
-            echo '<script type="text/javascript">window.close();</script>';
-            exit;
-        }
         exit;
     }
 }
