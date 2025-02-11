@@ -1,0 +1,3 @@
+<?php $__currentLoopData = $analitos; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $analito): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+    <option value="<?php echo e($analito->id_analito); ?>"><?php echo e($analito->nom_analito); ?></option>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php /**PATH /var/www/html/resources/views/analito/analitoList.blade.php ENDPATH**/ ?>

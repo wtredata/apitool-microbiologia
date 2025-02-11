@@ -1,0 +1,3 @@
+<?php $__currentLoopData = $sedes; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $sede): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+    <option value="<?php echo e($sede->id_sede); ?>"><?php echo $sede->nom_institucion . " " . $sede->nom_sede; ?></option>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php /**PATH /var/www/html/resources/views/sede/sedeList.blade.php ENDPATH**/ ?>

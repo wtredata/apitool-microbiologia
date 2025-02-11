@@ -1,0 +1,3 @@
+<?php $__currentLoopData = $ciudades; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $ciudad): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+    <option value="<?php echo e($ciudad->id_ciudad); ?>"><?php echo $ciudad->nom_pais  . ", " . $ciudad->nom_ciudad; ?></option>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php /**PATH /var/www/html/resources/views/ciudad/ciudadList.blade.php ENDPATH**/ ?>

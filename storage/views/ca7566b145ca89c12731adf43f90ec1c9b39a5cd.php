@@ -1,0 +1,3 @@
+<?php $__currentLoopData = $instituciones; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $institucion): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+    <option value="<?php echo e($institucion->id_institucion); ?>"><?php echo e($institucion->nom_institucion); ?></option>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php /**PATH /var/www/html/resources/views/institucion/institucionList.blade.php ENDPATH**/ ?>

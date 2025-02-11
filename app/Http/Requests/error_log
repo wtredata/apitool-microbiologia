@@ -1,0 +1,1804 @@
+[22-Oct-2023 00:48:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/software_pruebas/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/software_pruebas/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[22-Oct-2023 19:55:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/software_pruebas/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/software_pruebas/apitool/app/Http/Requests/LoteRequest.php on line 10
+[23-Oct-2023 12:12:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/software_pruebas/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/software_pruebas/apitool/app/Http/Requests/APSRequest.php on line 10
+[05-Jan-2024 19:39:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/SedeRequest.php on line 10
+[05-Jan-2024 21:34:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[05-Jan-2024 21:54:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/DIANARequest.php on line 10
+[05-Jan-2024 22:08:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/LoteRequest.php on line 10
+[05-Jan-2024 22:40:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/AnalizadorRequest.php on line 9
+[06-Jan-2024 00:55:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/PaisRequest.php on line 7
+[06-Jan-2024 01:00:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/ModoRequest.php on line 7
+[06-Jan-2024 01:52:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/ProveedorRequest.php on line 7
+[06-Jan-2024 03:02:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/CiudadRequest.php on line 10
+[06-Jan-2024 04:38:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/AnalitoRequest.php on line 10
+[06-Jan-2024 06:43:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/TemperaturaRequest.php on line 10
+[06-Jan-2024 06:46:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[06-Jan-2024 07:07:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/ReactivoRequest.php on line 10
+[06-Jan-2024 07:11:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/UsuarioPassRequest.php on line 8
+[06-Jan-2024 08:41:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/ControlRequest.php on line 10
+[06-Jan-2024 09:07:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/InstitucionRequest.php on line 7
+[06-Jan-2024 11:47:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[06-Jan-2024 12:24:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/UnidadRequest.php on line 10
+[06-Jan-2024 12:47:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/LoginRequest.php on line 8
+[06-Jan-2024 12:55:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/MetodologiaRequest.php on line 10
+[06-Jan-2024 13:17:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/FuenteETMPRequest.php on line 7
+[06-Jan-2024 15:42:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/LaboratorioRequest.php on line 10
+[06-Jan-2024 16:25:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[06-Jan-2024 17:09:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/APSRequest.php on line 10
+[06-Jan-2024 18:08:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/CopiarLoteRequest.php on line 10
+[06-Jan-2024 20:59:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/UsuarioRequest.php on line 8
+[06-Jan-2024 21:56:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/app/Http/Requests/MatrizRequest.php on line 7
+[12-Feb-2024 09:40:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[12-Feb-2024 10:38:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[12-Feb-2024 11:46:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[12-Feb-2024 12:46:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[12-Feb-2024 13:09:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[12-Feb-2024 14:20:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[12-Feb-2024 17:37:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[12-Feb-2024 19:45:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[12-Feb-2024 21:13:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[12-Feb-2024 21:29:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[12-Feb-2024 22:26:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php on line 10
+[12-Feb-2024 23:49:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[13-Feb-2024 00:24:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[13-Feb-2024 02:19:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[13-Feb-2024 02:39:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[13-Feb-2024 02:43:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[13-Feb-2024 03:52:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[13-Feb-2024 04:44:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[13-Feb-2024 06:23:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[13-Feb-2024 07:11:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[13-Feb-2024 07:37:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[13-Feb-2024 08:51:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[13-Feb-2024 09:29:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[13-Feb-2024 09:40:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[13-Feb-2024 10:16:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[13-Feb-2024 10:32:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[13-Feb-2024 20:47:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[23-Mar-2024 08:33:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[23-Mar-2024 11:40:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[24-Mar-2024 05:58:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[24-Mar-2024 06:29:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[24-Mar-2024 06:40:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[25-Mar-2024 23:41:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[26-Mar-2024 13:13:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[26-Mar-2024 13:39:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[26-Mar-2024 20:16:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[27-Mar-2024 01:47:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[27-Mar-2024 02:04:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[27-Mar-2024 05:34:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[27-Mar-2024 06:04:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[27-Mar-2024 06:32:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[27-Mar-2024 09:30:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[27-Mar-2024 10:09:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[27-Mar-2024 12:04:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[27-Mar-2024 13:29:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[27-Mar-2024 14:34:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[27-Mar-2024 16:00:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[27-Mar-2024 16:39:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[27-Mar-2024 19:08:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[27-Mar-2024 19:14:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[28-Mar-2024 01:50:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[28-Mar-2024 02:20:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php on line 10
+[28-Mar-2024 04:02:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[31-Mar-2024 13:08:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[08-May-2024 00:57:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[08-May-2024 01:10:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[08-May-2024 06:55:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[08-May-2024 16:29:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[09-May-2024 06:26:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[09-May-2024 06:45:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[09-May-2024 08:45:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[09-May-2024 09:27:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[09-May-2024 09:51:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[09-May-2024 17:22:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[09-May-2024 19:59:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[09-May-2024 23:09:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[10-May-2024 08:29:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[10-May-2024 08:49:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[10-May-2024 11:29:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[10-May-2024 11:38:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[10-May-2024 12:43:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[10-May-2024 16:07:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[12-May-2024 10:04:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[12-May-2024 11:30:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[12-May-2024 12:12:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[12-May-2024 12:55:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[12-May-2024 14:44:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php on line 10
+[12-May-2024 16:29:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[13-May-2024 10:02:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[13-May-2024 17:40:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[14-May-2024 08:14:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[09-Jun-2024 20:04:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[09-Jun-2024 21:14:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[14-Jun-2024 19:46:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[14-Jun-2024 19:58:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[14-Jun-2024 22:52:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[14-Jun-2024 23:19:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[14-Jun-2024 23:39:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[15-Jun-2024 00:17:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[15-Jun-2024 03:24:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[15-Jun-2024 03:54:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[15-Jun-2024 04:16:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[15-Jun-2024 04:26:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[15-Jun-2024 05:37:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[15-Jun-2024 06:04:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[15-Jun-2024 06:09:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[15-Jun-2024 06:37:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[15-Jun-2024 07:21:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[15-Jun-2024 08:52:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[15-Jun-2024 09:38:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[15-Jun-2024 09:46:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[15-Jun-2024 11:08:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[15-Jun-2024 11:44:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[15-Jun-2024 12:02:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[15-Jun-2024 12:19:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php on line 10
+[15-Jun-2024 14:36:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[15-Jun-2024 17:00:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[16-Jun-2024 03:05:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[13-Jul-2024 14:50:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[13-Jul-2024 15:22:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[18-Jul-2024 10:19:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[18-Jul-2024 10:59:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[18-Jul-2024 13:05:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[18-Jul-2024 13:35:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[18-Jul-2024 13:59:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[18-Jul-2024 14:29:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[18-Jul-2024 14:54:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[18-Jul-2024 15:00:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[18-Jul-2024 15:57:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[18-Jul-2024 16:19:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php on line 10
+[18-Jul-2024 18:50:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[18-Jul-2024 19:31:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[18-Jul-2024 20:15:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[18-Jul-2024 21:34:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[18-Jul-2024 22:01:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[18-Jul-2024 22:06:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[18-Jul-2024 23:36:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[18-Jul-2024 23:41:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[18-Jul-2024 23:51:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[18-Jul-2024 23:52:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[19-Jul-2024 00:13:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[19-Jul-2024 00:44:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[19-Jul-2024 00:58:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[19-Jul-2024 02:42:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[19-Jul-2024 04:03:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[19-Jul-2024 16:56:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[19-Jul-2024 16:59:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[19-Jul-2024 17:01:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[19-Jul-2024 17:03:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[19-Jul-2024 17:05:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php on line 10
+[19-Jul-2024 17:08:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[19-Jul-2024 17:10:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[19-Jul-2024 17:12:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[19-Jul-2024 17:14:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[19-Jul-2024 17:18:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[19-Jul-2024 17:20:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[19-Jul-2024 17:23:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[19-Jul-2024 17:26:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[19-Jul-2024 17:29:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[19-Jul-2024 17:32:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[19-Jul-2024 17:34:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[19-Jul-2024 17:36:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[19-Jul-2024 18:34:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[19-Jul-2024 18:44:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[19-Jul-2024 19:15:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[19-Jul-2024 22:41:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[20-Jul-2024 01:14:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[20-Jul-2024 23:26:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[27-Jul-2024 14:32:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[28-Jul-2024 04:20:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[28-Jul-2024 06:50:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[28-Jul-2024 18:04:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[29-Jul-2024 08:20:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[29-Jul-2024 10:52:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[29-Jul-2024 22:15:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[30-Jul-2024 14:37:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[01-Aug-2024 09:26:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[02-Aug-2024 14:50:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[04-Aug-2024 01:34:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[07-Aug-2024 17:51:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[07-Aug-2024 19:36:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[07-Aug-2024 23:08:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[08-Aug-2024 20:42:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[09-Aug-2024 06:05:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[09-Aug-2024 15:23:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[09-Aug-2024 17:45:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[09-Aug-2024 18:56:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[10-Aug-2024 00:25:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[10-Aug-2024 07:22:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[10-Aug-2024 09:48:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[11-Aug-2024 04:04:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[11-Aug-2024 10:22:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[11-Aug-2024 10:41:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[11-Aug-2024 13:09:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[11-Aug-2024 20:50:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[11-Aug-2024 22:21:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[12-Aug-2024 09:18:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[12-Aug-2024 13:52:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[12-Aug-2024 17:17:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[13-Aug-2024 07:26:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[18-Aug-2024 00:45:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[19-Aug-2024 08:59:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[19-Aug-2024 11:03:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[19-Aug-2024 12:17:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php on line 10
+[19-Aug-2024 13:08:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[19-Aug-2024 13:31:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[19-Aug-2024 14:02:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[19-Aug-2024 14:57:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[19-Aug-2024 15:02:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[19-Aug-2024 15:05:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[19-Aug-2024 18:55:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[19-Aug-2024 19:21:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[19-Aug-2024 20:25:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[19-Aug-2024 21:41:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[19-Aug-2024 22:52:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[19-Aug-2024 22:59:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[19-Aug-2024 23:08:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[19-Aug-2024 23:36:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[20-Aug-2024 01:11:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[20-Aug-2024 01:27:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[20-Aug-2024 01:32:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[20-Aug-2024 02:02:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[20-Aug-2024 02:47:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[20-Aug-2024 05:32:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[20-Aug-2024 07:32:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[20-Aug-2024 08:55:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[20-Aug-2024 11:34:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[21-Aug-2024 02:31:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[25-Aug-2024 04:51:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[27-Aug-2024 08:52:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[27-Aug-2024 14:54:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[28-Aug-2024 23:26:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[30-Aug-2024 06:16:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[01-Sep-2024 09:56:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[02-Sep-2024 08:11:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[02-Sep-2024 11:39:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[03-Sep-2024 09:25:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[03-Sep-2024 14:48:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[04-Sep-2024 15:00:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[05-Sep-2024 19:24:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[08-Sep-2024 16:06:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[09-Sep-2024 15:10:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[10-Sep-2024 08:18:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[10-Sep-2024 08:27:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[10-Sep-2024 08:37:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[10-Sep-2024 13:26:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[10-Sep-2024 14:04:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[10-Sep-2024 14:06:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[10-Sep-2024 14:57:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[11-Sep-2024 19:24:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[14-Sep-2024 17:34:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[20-Sep-2024 16:40:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[20-Sep-2024 17:04:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[20-Sep-2024 17:14:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[20-Sep-2024 21:09:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[20-Sep-2024 21:26:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[20-Sep-2024 22:08:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[20-Sep-2024 23:08:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[21-Sep-2024 00:35:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[21-Sep-2024 01:20:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[21-Sep-2024 01:21:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php on line 10
+[21-Sep-2024 03:18:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[21-Sep-2024 03:23:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[21-Sep-2024 03:31:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[21-Sep-2024 03:31:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[21-Sep-2024 03:51:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[21-Sep-2024 05:21:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[21-Sep-2024 05:50:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[21-Sep-2024 06:35:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[21-Sep-2024 07:10:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[21-Sep-2024 07:44:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[21-Sep-2024 08:42:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[21-Sep-2024 12:44:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[21-Sep-2024 13:03:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[21-Sep-2024 13:32:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[21-Sep-2024 13:43:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[21-Sep-2024 18:33:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[26-Sep-2024 10:10:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[29-Oct-2024 01:25:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[29-Oct-2024 02:52:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[29-Oct-2024 03:29:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[29-Oct-2024 04:10:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[29-Oct-2024 04:13:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[29-Oct-2024 04:20:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[29-Oct-2024 04:43:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[29-Oct-2024 04:46:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[29-Oct-2024 05:39:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[29-Oct-2024 06:46:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[29-Oct-2024 07:08:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[29-Oct-2024 08:33:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[29-Oct-2024 09:12:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[29-Oct-2024 10:32:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[29-Oct-2024 11:37:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[29-Oct-2024 12:55:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[29-Oct-2024 13:59:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[29-Oct-2024 14:23:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[29-Oct-2024 15:07:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[29-Oct-2024 15:32:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[29-Oct-2024 16:04:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[29-Oct-2024 16:29:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[29-Oct-2024 17:26:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php on line 10
+[29-Oct-2024 17:57:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[29-Oct-2024 19:33:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[29-Oct-2024 19:57:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[29-Oct-2024 23:27:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[04-Nov-2024 01:11:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[04-Nov-2024 01:35:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[04-Nov-2024 03:30:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[04-Nov-2024 03:34:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[04-Nov-2024 03:53:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[04-Nov-2024 03:55:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[04-Nov-2024 03:59:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[04-Nov-2024 04:03:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[04-Nov-2024 04:04:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[04-Nov-2024 04:10:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[04-Nov-2024 04:12:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[17-Nov-2024 08:48:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[17-Nov-2024 21:22:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[19-Nov-2024 10:05:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[19-Nov-2024 10:44:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[19-Nov-2024 17:17:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[19-Nov-2024 18:31:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[19-Nov-2024 18:59:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[19-Nov-2024 20:02:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[19-Nov-2024 20:46:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[20-Nov-2024 00:37:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[20-Nov-2024 01:24:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[20-Nov-2024 06:00:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[20-Nov-2024 06:01:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[20-Nov-2024 06:03:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[20-Nov-2024 06:20:48 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[20-Nov-2024 06:34:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[20-Nov-2024 06:40:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[20-Nov-2024 06:45:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[20-Nov-2024 07:14:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[20-Nov-2024 07:20:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[20-Nov-2024 07:22:02 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[20-Nov-2024 07:22:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[20-Nov-2024 07:24:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[20-Nov-2024 07:26:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[20-Nov-2024 07:27:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[20-Nov-2024 07:28:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[20-Nov-2024 07:29:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[20-Nov-2024 07:30:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[20-Nov-2024 07:31:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[20-Nov-2024 07:32:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[20-Nov-2024 07:52:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[20-Nov-2024 08:05:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[20-Nov-2024 08:09:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[20-Nov-2024 08:19:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[20-Nov-2024 08:22:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[20-Nov-2024 08:24:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[20-Nov-2024 08:27:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[20-Nov-2024 08:35:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[20-Nov-2024 08:40:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[20-Nov-2024 08:47:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[20-Nov-2024 08:47:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[20-Nov-2024 08:53:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[20-Nov-2024 08:55:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[20-Nov-2024 09:08:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[20-Nov-2024 09:10:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[20-Nov-2024 09:27:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[20-Nov-2024 09:33:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php on line 10
+[20-Nov-2024 09:38:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[20-Nov-2024 09:56:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[20-Nov-2024 11:08:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[20-Nov-2024 11:10:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[20-Nov-2024 11:13:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[20-Nov-2024 11:32:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[26-Nov-2024 05:08:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[05-Dec-2024 02:14:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[05-Dec-2024 02:21:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[05-Dec-2024 02:23:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[05-Dec-2024 02:47:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[05-Dec-2024 03:12:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[05-Dec-2024 03:19:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[05-Dec-2024 05:39:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[05-Dec-2024 06:04:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[05-Dec-2024 06:10:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[05-Dec-2024 07:41:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[05-Dec-2024 08:35:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[05-Dec-2024 08:46:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[05-Dec-2024 08:50:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[05-Dec-2024 08:59:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7
+[05-Dec-2024 09:29:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[05-Dec-2024 09:36:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[05-Dec-2024 10:57:08 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[05-Dec-2024 11:07:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[05-Dec-2024 11:20:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[05-Dec-2024 11:54:19 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[05-Dec-2024 13:20:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[05-Dec-2024 13:34:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[05-Dec-2024 13:36:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[05-Dec-2024 14:02:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[05-Dec-2024 15:24:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[05-Dec-2024 16:06:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[05-Dec-2024 17:44:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php on line 10
+[20-Jan-2025 04:53:27 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[20-Jan-2025 10:17:49 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[20-Jan-2025 17:26:30 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/FuenteETMPRequest.php on line 7
+[20-Jan-2025 17:38:36 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoteRequest.php on line 10
+[20-Jan-2025 18:02:16 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LaboratorioRequest.php on line 10
+[20-Jan-2025 21:16:44 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/PaisRequest.php on line 7
+[20-Jan-2025 22:38:04 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[21-Jan-2025 04:34:52 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioAsignationLabRequest.php on line 9
+[22-Jan-2025 19:34:27 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ReactivoRequest.php on line 10
+[22-Jan-2025 19:50:17 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/TemperaturaRequest.php on line 10
+[23-Jan-2025 13:15:28 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CopiarLoteRequest.php on line 10
+[23-Jan-2025 15:45:59 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UnidadRequest.php on line 10
+[23-Jan-2025 16:34:25 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/APSRequest.php on line 10
+[23-Jan-2025 21:24:53 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioPassRequest.php on line 8
+[23-Jan-2025 21:28:27 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlRequest.php on line 10
+[24-Jan-2025 00:23:21 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[24-Jan-2025 01:34:29 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[24-Jan-2025 02:43:08 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[24-Jan-2025 03:34:34 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/CiudadRequest.php on line 10
+[24-Jan-2025 05:22:53 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/LoginRequest.php on line 8
+[24-Jan-2025 07:53:40 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoRequest.php on line 10
+[24-Jan-2025 13:50:34 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalitoLaboratorioRequest.php on line 10
+[24-Jan-2025 15:50:53 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/InstitucionRequest.php on line 7
+[24-Jan-2025 17:15:42 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ModoRequest.php on line 7
+[24-Jan-2025 18:18:57 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ControlLaboratorioRequest.php on line 10
+[25-Jan-2025 01:40:03 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/SedeRequest.php on line 10
+[25-Jan-2025 03:01:38 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/AnalizadorRequest.php on line 9
+[25-Jan-2025 05:48:41 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MetodologiaRequest.php on line 10
+[25-Jan-2025 09:11:18 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/VariabilidadBiologicaRequest.php on line 10
+[25-Jan-2025 17:56:03 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/MatrizRequest.php on line 7
+[26-Jan-2025 04:31:00 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/DIANARequest.php on line 10
+[26-Jan-2025 17:37:48 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[29-Jan-2025 09:41:40 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/UsuarioRequest.php on line 8
+[29-Jan-2025 10:37:15 America/Bogota] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/quikappspane/public_html/apitool.prueba.quik-apps.com.co/apitool/app/Http/Requests/ProveedorRequest.php on line 7

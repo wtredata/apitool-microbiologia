@@ -1,0 +1,90 @@
+version: '3.7'
+
+services:
+  db_apitools:
+    # We use a mariadb image which supports both amd64 & arm64 architecture
+    container_name: db_apitools
+    image: mariadb:10-focal
+    # If you really want to use MySQL, uncomment the following line
+    #image: mysql:8
+    command:
+      - '--default-authentication-plugin=mysql_native_password'
+      # crear la base de datos a partir de un archivo sql
+      - '--init-file=/docker-entrypoint-initdb.d/init.sql'
+    restart: always
+    healthcheck:
+      test: ['CMD-SHELL', 'mysqladmin ping -h 127.0.0.1 --password="$$(cat /run/secrets/db-password)" --silent']
+      interval: 3s
+      retries: 5
+      start_period: 30s
+    secrets:
+      - db-password
+    volumes:
+      - ./db-data:/var/lib/mysql
+      - ./db/init_db.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - apitoolNet
+    environment:
+      - MYSQL_DATABASE=apitools
+      - MYSQL_ROOT_PASSWORD_FILE=/run/secrets/db-password
+    expose:
+      - 3306
+      - 33060
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - 8181:80
+    environment:
+      PMA_HOST: db_apitools
+      PMA_PORT: 3306
+      MYSQL_ROOT_PASSWORD: /run/secrets/db-password
+    networks:
+      - apitoolNet
+    links:
+      - db_apitools
+
+  apitools:
+    container_name: apitools
+    build:
+      args:
+        user: apitools
+        uid: 1000
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      db_apitools:
+        condition: service_healthy
+    secrets:
+        - db-password
+    volumes:
+        - .:/var/www/html
+    networks:
+        - apitoolNet
+    links:
+        - db_apitools
+    ports:
+      - "90:80"
+  # nginx:
+  #   image: nginx:alpine
+  #   container_name: nginx-apitools
+  #   restart: unless-stopped
+  #   ports:
+  #   - 81:80
+  #   volumes:
+  #   - .:/var/www
+  #   - ./nginx:/etc/nginx/conf.d/
+  #   networks:
+  #   - apitoolNet
+volumes:
+  db-data:
+
+secrets:
+  db-password:
+    file: db/password.txt
+
+networks:
+  apitoolNet:
+    driver: bridge

@@ -1,0 +1,3 @@
+<?php $__currentLoopData = $paises; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $pais): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+    <option value="<?php echo e($pais->id_pais); ?>"><?php echo e($pais->nom_pais); ?></option>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php /**PATH /var/www/html/resources/views/pais/paisList.blade.php ENDPATH**/ ?>

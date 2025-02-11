@@ -1,0 +1,11 @@
+body {
+    margin: 0px !important;
+    overflow: hidden;
+}
+
+
+embed {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+}

@@ -1,0 +1,102 @@
+.image-found-1 {
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+    .full-page-intro {
+        height: 1000px;
+    }
+}
+
+.h-95-hv {
+    height: 95vh !important;
+}
+
+/* Navbar animation */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.top-nav-collapse {
+    background-color: #1c2331;
+}
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1c2331;
+    }
+}
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+    background-color: #1c2331;
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+    min-height: 600px !important;
+    height: calc(100vh - 30px) !important;
+}
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 650px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1c2331 !important;
+    }
+}
+
+
+.overflow-auto::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.overflow-auto::-webkit-scrollbar:vertical {
+    width:12px;
+}
+
+.overflow-auto::-webkit-scrollbar-button:increment,.overflow-auto::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.overflow-auto::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.overflow-auto::-webkit-scrollbar-track {
+    border-radius: 12px;  
+}

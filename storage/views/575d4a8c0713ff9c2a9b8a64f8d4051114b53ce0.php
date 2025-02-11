@@ -1,0 +1,3 @@
+<?php $__currentLoopData = $controles; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $control): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+    <option value="<?php echo e($control->id_control); ?>"><?php echo e($control->nom_control); ?> | <?php echo e($control->nom_proveedor); ?> | <?php echo e($control->nom_matriz); ?></option>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php /**PATH /var/www/html/resources/views/control/controlList.blade.php ENDPATH**/ ?>
